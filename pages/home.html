@@ -13,6 +13,14 @@
 			<td>{{row.lastName}}</td>
 			<td>{{row.home}}</td>
 		</tr>
+
 		</tbody>
 	</table>
+
+		<legend>Create Person</legend>
+		<input type="text" ng-model="fname" placeholder="First Name" ><br />
+		<input type="text" ng-model="lname" placeholder="Last Name" ><br />
+		<input type="text" ng-model="home" placeholder="Home" ><br />
+		<button type="button" ng-click="addPerson()">Add Person</button>
+
 </div>

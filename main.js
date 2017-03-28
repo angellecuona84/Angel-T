@@ -35,6 +35,12 @@ angularRoutingApp.controller('mainController', function($scope) {
         {firstName: 'Susan', lastName: 'Foreman', home: 'Gallifrey'}
 
     ];
+    $scope.addPerson = function(){
+        $scope.rowCollection.push({ 'firstName':$scope.fname, 'lastName': $scope.lname, 'home':$scope.home });
+        $scope.fname='';
+        $scope.lname='';
+        $scope.home='';
+    };
 });
 
 angularRoutingApp.controller('aboutController', function($scope) {
