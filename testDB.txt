@@ -1,0 +1,4 @@
+CREATE TABLE testDB (id integer, first_name varchar(30), last_name varchar(30), home varchar(80)); 
+INSERT INTO testDB VALUES (1, "Rose", "Tyler", "heart");
+INSERT INTO testDB VALUES (1, "Zoe", "Heriot", "Space Station W3");
+INSERT INTO testDB VALUES (1, "Joe", "Grant", "heart");
